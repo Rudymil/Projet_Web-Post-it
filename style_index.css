@@ -1,0 +1,25 @@
+fieldset{ /* style du formulaire */
+	margin-left: auto; /* marge a gauche */
+	margin-right: auto; /* marge a droite */
+	width: 200px; /* largeur */
+	font-family: Sans-serif; /* police */
+}
+h1{ /* style du titre */
+	/* width: 300px; /* largeur */
+	font-family: Cursive; /* police */
+	color: white; /* couleur police */
+	text-align: center; /* aligne le texte */
+	margin-left: 280px; /* marge a gauche */
+	margin-right: 280px; /* marge a droite */
+	background: linear-gradient(to right, yellow, red, green, blue); /* couleur degrade de fond */
+	/*background-color: rgba(255, 252, 204, 1); /* couleur de fond */
+	border-radius: 20px; /* fond arrondi */
+}
+img{ /* style des images */
+	display: block; /* defini le bloc */
+	margin-left: auto; /* marge a gauche */
+	margin-right: auto; /* marge a droite */
+}
+form{ /* style du formulaire */
+	text-align: center; /* aligne le texte */
+}

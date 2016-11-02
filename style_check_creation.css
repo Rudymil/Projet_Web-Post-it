@@ -1,0 +1,46 @@
+body{ /* style du body */
+	margin-left: 20px; /* marge a gauche */
+	font-family: Sans-serif; /* police */
+}
+h1{ /* style du titre */
+	/* width: 300px; /* largeur */
+	font-family: Cursive; /* police */
+	color: white; /* couleur police */
+	text-align: center; /* aligne le texte */
+	margin-left: 280px; /* marge a gauche */
+	margin-right: 280px; /* marge a droite */
+	background: linear-gradient(to right, yellow, red, green, blue); /* couleur degrade de fond */
+	/*background-color: rgba(255, 252, 204, 1); /* couleur de fond */
+	border-radius: 20px; /* fond arrondi */
+}
+td{ /* style des cellules */
+	border: 1px solid #DCDCDC; /* couleur de la bordure Gainsboro */
+	width: 30px; /* hauteur */
+	height: 30px; /* largeur */
+	background-color: #FFFFFF; /* couleur de fond White*/
+	text-align: center; /* centre le texte */
+}
+div#menu{ /* style du menu global */
+	border-width: 1px; /* largeur de la bordure */
+	border-style: solid; /* style de la bordure */
+	padding: 0px 10px 10px; /* espace de la bordure (haut,droite,gauche,bas) */
+	background-color: #C8FEF7; /* couleur de fond */
+	position: fixed; /* immobilise */
+	float: left; /* cale a gauche */
+}
+div#grille{ /* style de la grille */
+	float: left; /* cale a gauche */
+	margin-left: 175px; /* marge a gauche */
+	border-width: 1px; /* largeur de la bordure */
+	border-style: solid; /* style de la bordure */
+	padding: 10px 10px 10px; /* espace de la bordure (haut,droite,gauche,bas) */
+	background-color: #FCFEE4; /* couleur de fond */
+}
+table#menu_couleurs tr td{ /* style du menu des couleurs */
+	border: 2px solid #000000; /* taille bordure noire */
+	opacity: 1; /* opacite des couleurs */
+	color: white; /* couleur police pour le compteur de post-it*/
+}
+div#post_it{ /* style du compteur de post-it */
+	font-weight: bolder; /* ecrire en gras */
+}
