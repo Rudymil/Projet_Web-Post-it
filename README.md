@@ -2,7 +2,7 @@
 ## Projet Web 2016
 Création d’une interface de Post-it War. L’application doit permettre de créer ses illustrations à base de post-it, et de connaitre le nombre de post-it nécessaires. Vous êtes totalement libre sur l’interface graphique.
 
-![Enoncé.jpg](img\Enoncé.jpg)
+![Enonce.jpg](img\Enonce.jpg)
 
 Néanmoins, voici les contraintes que vous devrez intégrer :
 * Au départ, demandez la taille de la grille et réalisez cette grille (ça peut être dans une liste de choix prédéfinis, ou bien deux nombres correspondants à la largeur et la hauteur)
@@ -34,9 +34,9 @@ Puis lors du retour :
 * Le tout sur une page respectant les bonnes pratiques sémantiques (HTML, accessibilité, etc.)
 ### Rendu
 
-![Accueil.jpg](img\Accueil.jpg)
+![accueil.jpg](img\accueil.jpg)
 
-![Grille.jpg](img\Grille.jpg)
+![grille.jpg](img\grille.jpg)
 
 ```
 {"post-it" : {"black" : "0.03 * 89", "purple" : "0.0168 * 86"}, "prix" : 4.1148}
