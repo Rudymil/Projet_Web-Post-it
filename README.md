@@ -33,6 +33,7 @@ Puis lors du retour :
 }
 ```
 * Le tout sur une page respectant les bonnes pratiques sémantiques (HTML, accessibilité, etc.)
+
 ### Rendu
 
 ![accueil.jpg](img/accueil.jpg)
