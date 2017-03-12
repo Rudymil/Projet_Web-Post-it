@@ -18,7 +18,7 @@ Néanmoins, voici les contraintes que vous devrez intégrer :
 * A la fin, envoyez la commande (nombre de post-it de chaque couleur) à un serveur (page à créer par vos soins) vous renvoyant le montant total de votre commande. En fonction d’un prix que vous fixerez pour chaque post-it. (les échanges doivent se faire en JSON).
 
 Par exemple, lors de l’envoi :
-```
+```json
 {
   "post-its" : {
     "rouge" : 15,
@@ -27,7 +27,7 @@ Par exemple, lors de l’envoi :
 }
 ```
 Puis lors du retour :
-```
+```json
 {
   "prix" : 152,
 }
@@ -40,6 +40,12 @@ Puis lors du retour :
 
 ![grille.jpg](img/grille.jpg)
 
-```
-{"post-it" : {"black" : "0.03 * 89", "purple" : "0.0168 * 86"}, "prix" : 4.1148}
+```json
+{
+	"post-it" : {
+		"black" : "0.03 * 89",
+		"purple" : "0.0168 * 86"},
+		"prix" : 4.1148
+	}
+}
 ```
