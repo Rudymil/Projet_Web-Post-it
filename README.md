@@ -44,8 +44,8 @@ Puis lors du retour :
 {
 	"post-it" : {
 		"black" : "0.03 * 89",
-		"purple" : "0.0168 * 86"},
-		"prix" : 4.1148
-	}
+		"purple" : "0.0168 * 86"
+	},
+	"prix" : 4.1148
 }
 ```
